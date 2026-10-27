@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DentCare - Contact Us</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="margin:0; background-color:cornsilk; font-family:Arial,sans-serif; overflow-x:hidden;">
+
+<nav class="navbar navbar-expand-lg bg-info" style="min-height:75px;">
+    <div class="container-fluid px-3">
+
+        <a class="navbar-brand fw-bold text-black d-flex align-items-center m-0"
+           href="index.html" style="font-size:28px;">
+
+            <img src="d2.png" alt="Dentist Logo" width="40" class="me-2">
+            DENTIST
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-semibold px-3"
+                       href="index.html" style="font-size:12px;"><b>HOME</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-semibold px-3"
+                       href="About.html" style="font-size:12px;"><b>ABOUT US</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-semibold px-3"
+                       href="Patient.html" style="font-size:12px;"><b>PATIENTS</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active text-primary fw-semibold px-3"
+                       href="Contact.html" style="font-size:12px;"><b>CONTACT US</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-semibold px-3"
+                       href="Blog.html" style="font-size:12px;"><b>BLOG</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-semibold px-3"
+                       href="Appoinment.html" style="font-size:12px;"><b>APPOINTMENTS</b></a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="container-fluid text-center text-black px-3"
+         style="padding-top:clamp(60px,10vw,150px);">
+
+    <h1 style="font-size:clamp(38px,6vw,70px); font-weight:bold; margin:0;">
+        Contact Us
+    </h1>
+
+    <div class="d-flex align-items-center justify-content-center w-100 mt-4 mb-5">
+        <div style="height:4px; width:100px; max-width:100%; background:#99aa2d;"></div>
+    </div>
+</section>
+
+<section class="container-fluid py-4 py-md-5" style="background:#f7f7f7; min-height:100vh;">
+
+    <div class="container" style="max-width:950px;">
+        <div class="row g-0 align-items-stretch">
+
+            <div class="col-lg-6 col-md-7 col-12"
+                 style="padding:clamp(22px,4vw,36px); background:white;">
+
+                <h2 style="font-size:29px; font-weight:300; color:#111; margin-bottom:25px;">
+                    Contact Us
+                </h2>
+
+                <form id="contact-form">
+
+                    <div style="margin-bottom:26px;">
+                        <label for="contact-name"
+                               style="font-size:10px; letter-spacing:1px; color:#333; display:block; margin-bottom:7px;">
+                            NAME <span style="color:red;">*</span>
+                        </label>
+
+                        <input id="contact-name" type="text"
+                               placeholder="Your name here" required
+                               style="width:100%; height:38px; border:1px solid red; padding:5px 9px; font-size:12px; outline:none;">
+
+                        <small style="color:#ff3333; font-size:11px;">
+                            This is a required field.
+                        </small>
+                    </div>
+
+                    <div style="margin-bottom:26px;">
+                        <label for="contact-email"
+                               style="font-size:10px; letter-spacing:1px; color:#333; display:block; margin-bottom:7px;">
+                            EMAIL <span style="color:red;">*</span>
+                        </label>
+
+                        <input id="contact-email" type="email"
+                               placeholder="Your email here" required
+                               style="width:100%; height:38px; border:1px solid red; padding:5px 9px; font-size:12px; outline:none;">
+
+                        <small style="color:#ff3333; font-size:11px;">
+                            This is a required field.
+                        </small>
+                    </div>
+
+                    <div style="margin-bottom:25px;">
+                        <label for="contact-message"
+                               style="font-size:10px; letter-spacing:1px; color:#333; display:block; margin-bottom:7px;">
+                            MESSAGE <span style="color:red;">*</span>
+                        </label>
+
+                        <textarea id="contact-message" rows="6"
+                                  placeholder="Please leave your message here"
+                                  required
+                                  style="width:100%; height:135px; border:1px solid red; padding:7px 9px; font-size:12px; outline:none; resize:vertical;"></textarea>
+
+                        <small style="color:#ff3333; font-size:11px;">
+                            This is a required field.
+                        </small>
+                    </div>
+
+                    <button type="submit"
+                            style="background:#b8c900; color:white; border:none; padding:10px 25px; font-size:12px; cursor:pointer;">
+                        SEND
+                    </button>
+
+                </form>
+            </div>
+
+            <div class="col-lg-6 col-md-5 col-12"
+                 style="padding:clamp(30px,7vw,80px) clamp(22px,5vw,60px);">
+
+                <h5 style="font-size:14px; font-weight:300; letter-spacing:1px; color:#444; margin-bottom:12px;">
+                    CONTACT
+                </h5>
+
+                <p style="font-size:11px; line-height:2; color:#666; margin-bottom:24px; overflow-wrap:anywhere;">
+                    CALL / <b style="color:#222;">(03) 9147 3891</b><br>
+
+                    EMAIL / <b style="color:#222;">
+                        contact@curlydentalclinic.com
+                    </b><br>
+
+                    IN PERSON / <b style="color:#222;">
+                        119 Street Southbank, VIC 1829
+                    </b>
+                </p>
+
+                <h5 style="font-size:14px; font-weight:300; letter-spacing:1px; color:#444; margin-bottom:12px;">
+                    HOURS
+                </h5>
+
+                <p style="font-size:11px; line-height:2; color:#666; margin:0;">
+                    Monday to Friday / <b style="color:#222;">9.30am–5pm</b><br>
+                    Saturday / <b style="color:#222;">10.30am–5pm</b><br>
+                    Sunday / <b style="color:#222;">1 hour before appointments</b>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid text-center px-3" style="padding-top:60px;">
+
+    <h1 style="font-size:clamp(36px,6vw,70px); font-weight:bold; margin:0;">
+        Getting Here
+    </h1>
+
+    <div class="d-flex align-items-center justify-content-center w-100 mt-4 mb-5">
+        <div style="height:4px; width:100px; background:#99aa2d;"></div>
+    </div>
+
+    <img src="d11.jpg" alt="Getting Here"
+         class="img-fluid w-100"
+         style="display:block; height:auto; max-height:650px; object-fit:cover;">
+
+    <div class="container">
+        <h2 style="font-size:clamp(17px,2.5vw,20px); font-weight:400; color:#6c757d; margin-top:55px; margin-bottom:35px;">
+            113 Royal Street, Westbank 3471, VIC AUSTRALIA.
+        </h2>
+
+        <div class="row text-start g-4">
+
+            <div class="col-md-6 col-12">
+                <div style="padding:20px;">
+                    <h3 style="font-size:15px; margin-bottom:20px; color:#111;">
+                        ON A TRAM
+                    </h3>
+
+                    <p style="font-size:13px; line-height:1.9; color:#6c757d; margin:0;">
+                        The No. 1 South London tram goes right past our door. Get off at
+                        Stop 11. Any tram down St Patrick Road—jump off at Oak Street,
+                        Stop 11 and take a 3-minute walk.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+                <div style="padding:20px;">
+                    <h3 style="font-size:15px; margin-bottom:20px; color:#111;">
+                        PARKING OPTIONS
+                    </h3>
+
+                    <p style="font-size:13px; line-height:1.9; color:#6c757d; margin:0;">
+                        Limited on-street parking is available on Oak Street,Royal Street
+                        and Baylor Streets. Two disabled parking spaces are just outside
+                        The Royal Opera-house entrance on Royal Street.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+                <div style="padding:20px;">
+                    <h3 style="font-size:15px; margin-bottom:20px; color:#111;">
+                        ON A TRAIN
+                    </h3>
+
+                    <p style="font-size:13px; line-height:1.9; color:#6c757d; margin:0;">
+                        Any train to Tailors Street, then a 10-minute stroll through London’s
+                        sparkling Musicians Precinct.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+                <div style="padding:20px;">
+                    <h3 style="font-size:15px; margin-bottom:20px; color:#6c757d;">
+                        The closest secure carparks are:
+                    </h3>
+
+                    <p style="font-size:13px; line-height:1.9; color:#6c757d; margin:0;">
+                        Musicians Centre London Car Park (enter from Royal Street)<br>
+                        The British Medical Centre Car Park (2 Liberation Street)
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid py-5">
+    <div class="row align-items-center justify-content-center text-center g-3">
+
+        <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="log1.png" alt="Dental Logo 1" class="img-fluid"
+                 style="width:180px; height:120px; object-fit:contain; opacity:0.6; filter:grayscale(100%); transition:all 0.4s ease; cursor:pointer;"
+                 onmouseover="this.style.opacity='1'; this.style.filter='grayscale(0%)'; this.style.transform='scale(1.1)'"
+                 onmouseout="this.style.opacity='0.6'; this.style.filter='grayscale(100%)'; this.style.transform='scale(1)'">
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="log2.png" alt="Dental Logo 2" class="img-fluid"
+                 style="width:180px; height:120px; object-fit:contain; opacity:0.6; filter:grayscale(100%); transition:all 0.4s ease; cursor:pointer;"
+                 onmouseover="this.style.opacity='1'; this.style.filter='grayscale(0%)'; this.style.transform='scale(1.1)'"
+                 onmouseout="this.style.opacity='0.6'; this.style.filter='grayscale(100%)'; this.style.transform='scale(1)'">
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="log3.png" alt="Dental Logo 3" class="img-fluid"
+                 style="width:180px; height:120px; object-fit:contain; opacity:0.6; filter:grayscale(100%); transition:all 0.4s ease; cursor:pointer;"
+                 onmouseover="this.style.opacity='1'; this.style.filter='grayscale(0%)'; this.style.transform='scale(1.1)'"
+                 onmouseout="this.style.opacity='0.6'; this.style.filter='grayscale(100%)'; this.style.transform='scale(1)'">
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="log4.png" alt="Dental Logo 4" class="img-fluid"
+                 style="width:180px; height:120px; object-fit:contain; opacity:0.6; filter:grayscale(100%); transition:all 0.4s ease; cursor:pointer;"
+                 onmouseover="this.style.opacity='1'; this.style.filter='grayscale(0%)'; this.style.transform='scale(1.1)'"
+                 onmouseout="this.style.opacity='0.6'; this.style.filter='grayscale(100%)'; this.style.transform='scale(1)'">
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="log5.png" alt="Dental Logo 5" class="img-fluid"
+                 style="width:180px; height:120px; object-fit:contain; opacity:0.6; filter:grayscale(100%); transition:all 0.4s ease; cursor:pointer;"
+                 onmouseover="this.style.opacity='1'; this.style.filter='grayscale(0%)'; this.style.transform='scale(1.1)'"
+                 onmouseout="this.style.opacity='0.6'; this.style.filter='grayscale(100%)'; this.style.transform='scale(1)'">
+        </div>
+
+    </div>
+</section>
+
+<section class="container-fluid text-center text-white d-flex align-items-center justify-content-center"
+         style="min-height:200px; background-color:#9bad32; padding:35px 15px;">
+
+    <p style="font-size:clamp(14px,2vw,18px); line-height:1.8; margin:0;">
+        You can
+        <b>call our front desk at 1 820 34 2301</b>
+        Mon – Fri 9am – 8pm, email us at
+
+        <br class="d-none d-sm-block">
+
+        <a href="mailto:support@curlythemes.com"
+           style="color:white; text-decoration:underline; overflow-wrap:anywhere;">
+            support@curlythemes.com
+        </a>
+        or fill the
+
+        <a href="#contact-form"
+           style="color:white; text-decoration:underline;">
+            Contact Form
+        </a>
+    </p>
+</section>
+
+<footer class="container-fluid text-white p-0" style="background-color:#1b1c20; margin:0;">
+
+    <div class="d-flex flex-column align-items-center justify-content-center text-center"
+         style="min-height:200px; padding:25px 15px; border-bottom:1px solid #303136;">
+
+        <img src="d2.png" alt="Dental Logo"
+             style="width:40px; height:40px; object-fit:contain;">
+
+        <h6 style="font-size:11px; letter-spacing:2px; font-weight:bold; margin-top:4px; margin-bottom:0;">
+            DENTAL
+        </h6>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center" style="padding:35px 15px 25px;">
+
+                <p style="color:#b8b8bd; font-size:10px; line-height:1.9; margin-bottom:30px;">
+                    Morbi odio eros, volutpat ut pharetra vitae,
+                    lobortis sed nibh. Donec sed odio operae, eu vulputate
+                    <br class="d-none d-md-block">
+                    felis rhoncus. Quo usque tandem abutere,
+                    Catilina, patientia nostra?
+                </p>
+
+                <div class="d-flex justify-content-center align-items-center gap-3">
+
+                    <a href="#" aria-label="Facebook"
+                       style="color:white; font-size:15px; text-decoration:none;">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#" aria-label="Twitter"
+                       style="color:white; font-size:15px; text-decoration:none;">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="#" aria-label="Instagram"
+                       style="color:white; font-size:15px; text-decoration:none;">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="Pinterest"
+                       style="color:white; font-size:15px; text-decoration:none;">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

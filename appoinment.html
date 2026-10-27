@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DentCare - Appointment</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="margin:0; background-color:cornsilk; font-family:Arial,sans-serif; overflow-x:hidden;">
+
+<nav class="navbar navbar-expand-lg bg-info" style="min-height:75px;">
+    <div class="container-fluid px-3">
+
+        <a class="navbar-brand fw-bold text-black d-flex align-items-center m-0"
+           href="index.html" style="font-size:28px;">
+
+            <img src="d2.png" alt="Dentist Logo" width="40" class="me-2">
+            DENTIST
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-semibold px-3"
+                       href="index.html" style="font-size:12px;"><b>HOME</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-semibold px-3"
+                       href="About.html" style="font-size:12px;"><b>ABOUT US</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-semibold px-3"
+                       href="Patient.html" style="font-size:12px;"><b>PATIENTS</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-semibold px-3"
+                       href="Contact.html" style="font-size:12px;"><b>CONTACT US</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-semibold px-3"
+                       href="Blog.html" style="font-size:12px;"><b>BLOG</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active text-primary fw-semibold px-3"
+                       href="Appoinment.html" style="font-size:12px;"><b>APPOINTMENTS</b></a>
+                </li>
+
+            </ul>
+        </div>
+</nav>
+
+<section class="container-fluid py-4 py-md-5 px-3 px-md-4"
+         style="background:linear-gradient(110deg,#96a72e,#369BC5);">
+
+    <div class="container-fluid bg-white p-3 p-md-4 shadow"
+         style="max-width:1450px; border-radius:12px;">
+
+        <div class="row g-4 align-items-stretch">
+
+            <div class="col-lg-7 col-12">
+
+                <div class="h-100 p-3 p-md-4"
+                     style="border:1px solid #e1e7ed; border-radius:12px;">
+
+                    <div class="row g-1 mb-5 text-center">
+
+                        <div class="col">
+                            <div class="fw-semibold mb-2" style="color:#96a72e; font-size:clamp(10px,1.5vw,16px);">
+                                1. Service
+                            </div>
+                            <div style="height:12px; background:#96a72e;"></div>
+                        </div>
+
+                        <div class="col">
+                            <div class="fw-semibold mb-2" style="font-size:clamp(10px,1.5vw,16px);">
+                                2. Time
+                            </div>
+                            <div style="height:12px; background:#bdc3c7;"></div>
+                        </div>
+
+                        <div class="col">
+                            <div class="fw-semibold mb-2" style="font-size:clamp(10px,1.5vw,16px);">
+                                3. Details
+                            </div>
+                            <div style="height:12px; background:#bdc3c7;"></div>
+                        </div>
+
+                        <div class="col">
+                            <div class="fw-semibold mb-2" style="font-size:clamp(10px,1.5vw,16px);">
+                                4. Payment
+                            </div>
+                            <div style="height:12px; background:#bdc3c7;"></div>
+                        </div>
+
+                        <div class="col">
+                            <div class="fw-semibold mb-2" style="font-size:clamp(10px,1.5vw,16px);">
+                                5. Done
+                            </div>
+                            <div style="height:12px; background:#bdc3c7;"></div>
+                        </div>
+
+                    </div>
+
+                    <h6 class="fw-bold mb-4">Please select service:</h6>
+
+                    <div class="row g-3 mb-4">
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <label class="form-label fw-semibold" style="color:#96a72e;">Category</label>
+                            <select class="form-select rounded-0" required>
+                                <option value="">Select category</option>
+                                <option>General Dentistry</option>
+                                <option>Cosmetic Dentistry</option>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <label class="form-label fw-semibold" style="color:#96a72e;">Service</label>
+                            <select class="form-select rounded-0" required>
+                                <option value="">Select service</option>
+                                <option>Cosmetic Whitening</option>
+                                <option>Dental Implants</option>
+                                <option>General Dentistry</option>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <label class="form-label fw-semibold" style="color:#96a72e;">Employee</label>
+                            <select class="form-select rounded-0">
+                                <option>Any</option>
+                                <option>Dr. Franks Williams</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row g-3 mb-4 align-items-end">
+
+                        <div class="col-lg-5 col-md-5 col-12">
+                            <label class="form-label fw-semibold">
+                                I'm available on or after
+                            </label>
+
+                            <input type="date" class="form-control rounded-0"
+                                   value="2026-10-21" min="2026-10-21">
+                        </div>
+
+                        <div class="col-lg-7 col-md-7 col-12">
+
+                            <div class="d-flex justify-content-between fw-semibold mb-3"
+                                 style="font-size:clamp(10px,1.3vw,14px);">
+                                <span>Mon</span>
+                                <span>Tue</span>
+                                <span>Wed</span>
+                                <span>Thu</span>
+                                <span>Fri</span>
+                                <span>Sat</span>
+                                <span>Sun</span>
+                            </div>
+
+                            <div class="d-flex justify-content-between gap-1">
+
+                                <input type="checkbox" class="btn-check" id="mon" checked>
+                                <label for="mon" style="width:clamp(25px,3vw,32px); height:clamp(25px,3vw,32px); flex-shrink:1; border-radius:50%; background:#96a72e; color:white; display:flex; align-items:center; justify-content:center; cursor:pointer;">
+                                    <i class="bi bi-check"></i>
+                                </label>
+
+                                <input type="checkbox" class="btn-check" id="tue" checked>
+                                <label for="tue" style="width:clamp(25px,3vw,32px); height:clamp(25px,3vw,32px); flex-shrink:1; border-radius:50%; background:#96a72e; color:white; display:flex; align-items:center; justify-content:center; cursor:pointer;">
+                                    <i class="bi bi-check"></i>
+                                </label>
+
+                                <input type="checkbox" class="btn-check" id="wed" checked>
+                                <label for="wed" style="width:clamp(25px,3vw,32px); height:clamp(25px,3vw,32px); flex-shrink:1; border-radius:50%; background:#96a72e; color:white; display:flex; align-items:center; justify-content:center; cursor:pointer;">
+                                    <i class="bi bi-check"></i>
+                                </label>
+
+                                <input type="checkbox" class="btn-check" id="thu" checked>
+                                <label for="thu" style="width:clamp(25px,3vw,32px); height:clamp(25px,3vw,32px); flex-shrink:1; border-radius:50%; background:#96a72e; color:white; display:flex; align-items:center; justify-content:center; cursor:pointer;">
+                                    <i class="bi bi-check"></i>
+                                </label>
+
+                                <input type="checkbox" class="btn-check" id="fri" checked>
+                                <label for="fri" style="width:clamp(25px,3vw,32px); height:clamp(25px,3vw,32px); flex-shrink:1; border-radius:50%; background:#96a72e; color:white; display:flex; align-items:center; justify-content:center; cursor:pointer;">
+                                    <i class="bi bi-check"></i>
+                                </label>
+
+                                <input type="checkbox" class="btn-check" id="sat" checked>
+                                <label for="sat" style="width:clamp(25px,3vw,32px); height:clamp(25px,3vw,32px); flex-shrink:1; border-radius:50%; background:#96a72e; color:white; display:flex; align-items:center; justify-content:center; cursor:pointer;">
+                                    <i class="bi bi-check"></i>
+                                </label>
+
+                                <input type="checkbox" class="btn-check" id="sun" checked>
+                                <label for="sun" style="width:clamp(25px,3vw,32px); height:clamp(25px,3vw,32px); flex-shrink:1; border-radius:50%; background:#96a72e; color:white; display:flex; align-items:center; justify-content:center; cursor:pointer;">
+                                    <i class="bi bi-check"></i>
+                                </label>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mt-3">
+
+                        <div class="col-sm-4 col-6">
+                            <label class="form-label fw-semibold">Start From</label>
+                            <select class="form-select rounded-0">
+                                <option>8:00 am</option>
+                                <option>9:00 am</option>
+                                <option>10:00 am</option>
+                                <option>11:00 am</option>
+                                <option>12:00 pm</option>
+                                <option>1:00 pm</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-4 col-6">
+                            <label class="form-label fw-semibold">Finish By</label>
+                            <select class="form-select rounded-0">
+                                <option>6:00 pm</option>
+                                <option>5:00 pm</option>
+                                <option>4:00 pm</option>
+                                <option>3:00 pm</option>
+                                <option>2:00 pm</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="button" class="btn text-white px-4 py-2"
+                                style="background:#96a72e; border:1px solid #96a72e;">
+                            Next <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-12 d-flex"
+                 style="background:linear-gradient(110deg,#96a72e,#369BC5); min-height:450px; border-radius:12px;">
+
+                <div class="w-100 d-flex flex-column justify-content-center align-items-center text-center p-3 p-md-4"
+                     style="border-left:2px solid #b9e3f5;">
+
+                    <h1 class="fst-italic mb-4"
+                        style="font-size:clamp(30px,4vw,55px); line-height:1.3; color:white; overflow-wrap:anywhere;">
+
+                        Book <span style="color:white;"><b>Your Appointment</b></span> Online
+
+                    </h1>
+
+                    <div class="d-flex align-items-center justify-content-center gap-3 mb-4 w-100">
+                        <div style="height:2px; width:100px; max-width:25%; background:white;"></div>
+
+                        <i class="bi bi-tooth" style="font-size:40px; color:white;"></i>
+
+                        <div style="height:2px; width:100px; max-width:25%; background:white;"></div>
+                    </div>
+
+                    <p class="text-white mb-0"
+                       style="font-size:clamp(14px,1.5vw,18px); line-height:1.9; max-width:450px;">
+                        The No. 1 South London tram goes right
+                        past our door. Get off at Stop 11. Any
+                        tram down St Patrick Road—jump off at
+                        Oak Street, Stop 11 and take a 6-minute
+                        walk.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="container-fluid text-white p-0"
+        style="background-color:#1b1c20; margin:0;">
+
+    <div class="d-flex flex-column align-items-center justify-content-center text-center"
+         style="min-height:200px; padding:25px 15px; border-bottom:1px solid #303136;">
+
+        <img src="d2.png" alt="Dental Logo"
+             style="width:40px; height:40px; object-fit:contain;">
+
+        <h6 style="font-size:11px; letter-spacing:2px; font-weight:bold; margin-top:4px; margin-bottom:0;">
+            DENTAL
+        </h6>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center" style="padding:35px 15px 25px;">
+
+                <p style="color:#b8b8bd; font-size:10px; line-height:1.9; margin-bottom:30px;">
+                    Morbi odio eros, volutpat ut pharetra vitae,
+                    lobortis sed nibh. Donec sed odio operae, eu vulputate
+                    <br class="d-none d-md-block">
+                    felis rhoncus. Quo usque tandem abutere,
+                    Catilina, patientia nostra?
+                </p>
+
+                <div class="d-flex justify-content-center align-items-center gap-3">
+
+                    <a href="#" aria-label="Facebook"
+                       style="color:white; font-size:15px; text-decoration:none;">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#" aria-label="Twitter"
+                       style="color:white; font-size:15px; text-decoration:none;">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="#" aria-label="Instagram"
+                       style="color:white; font-size:15px; text-decoration:none;">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="Pinterest"
+                       style="color:white; font-size:15px; text-decoration:none;">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
